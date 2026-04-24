@@ -1,46 +1,16 @@
-# App Lista de Clientes
+# React + Vite
 
-https://gemini.google.com/share/ab5a64a1e34a
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
-## Prompt 1
-```
-Lista de Clientes y Proveedores:
-obtiene datos de: https://dummyjson.com/users
+Currently, two official plugins are available:
 
-Consulta esta api y haz una lista de clientes
-Se genera un avatar para cada cliente con DiceBear Style BigSmile
-Apartados:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Home
-- filtro de texto y categorías
-- Vista de lista, cards, tabla (al hacer click se ordena por titulo de la columna), mapa
-- Botón para mail, telefono, whatsapp, agendar cita, marcar como destacado (solo iconos)
+## React Compiler
 
-Info
-Abre ventana emergente con informaición desglosada.
-Muestra toda la información anterior además, mapa, botón whatsapp, llamar, etc
-Botón siguiente y anterior
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-## Prompt 2
-```
-Los Mapas no funcionan bien, usa Open Maps, opción vista mapa, satelite y otros
-
-Info
-- al hacer click fuera se quita la ventana emergente con Info. Los botones siguiente y anterior dejalos arriba a la derecha
-
-- en la parte inferior pestañas con: otros usuarios del mismo departamento / otros usuarios que vivan en el mismo sitio
-- botón como llegar (abre google maps)
-
-Favoritos
-- Muestra los usuarios añadidos a favoritos
-
-Configuración
-apartado de configuración con opciones (se almacenaran localmente en localhost) tipo:
-- light dark mode
-- cambiar estilos de avatares de DiceBear a otros
-- cambiar el título de la aplicación de la cabecera
-```
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
