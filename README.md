@@ -26,12 +26,12 @@ Botón siguiente y anterior
 
 ## Prompt 2
 ```
-Los Mapas no funcionan bien, usa Open Maps
+Los Mapas no funcionan bien, usa Open Maps, opción vista mapa, satelite y otros
 
 Info
-- al hacer click fuera se quita la ventana emergente con Info
-- en la parte inferior aparecen otros usuarios del mismo departamento
-- En la ficha ha de aparecer mucha más info a partir de los datos del JSON (en formato desplegable "Más detalles" tipo details)
+- al hacer click fuera se quita la ventana emergente con Info. Los botones siguiente y anterior dejalos arriba a la derecha
+
+- en la parte inferior pestañas con: otros usuarios del mismo departamento / otros usuarios que vivan en el mismo sitio
 - botón como llegar (abre google maps)
 
 Favoritos
@@ -42,5 +42,5 @@ apartado de configuración con opciones (se almacenaran localmente en localhost)
 - light dark mode
 - cambiar estilos de avatares de DiceBear a otros
 - cambiar el título de la aplicación de la cabecera
-
+```
 
